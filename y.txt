@@ -1,0 +1,17 @@
+ 
+to insert a new node at the beginning:
+def push(self, new_data): 
+        new_node = Node(new_data) 
+        new_node.next = self.head 
+        self.head = new_node 
+
+
+to print data in linklist:
+
+def printList(self): 
+        temp = self.head 
+        while(temp): 
+            print (temp.data, end =" ") 
+            temp = temp.next
+   
+   
